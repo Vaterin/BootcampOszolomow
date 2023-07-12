@@ -1,3 +1,25 @@
 p {
   color: red;
 }
+header {
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  color: palevioletred;
+  letter-spacing: 3px;
+}
+#div1 {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+  float: right;
+}
+#div2 {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background-color: black;
+  float: right;
+  margin-right: 50px;
+}
