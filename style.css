@@ -9,14 +9,12 @@ header {
   letter-spacing: 3px;
 }
 #div1 {
-  position: relative;
   width: 200px;
   height: 200px;
   background-color: yellow;
   float: right;
 }
 #div2 {
-  position: relative;
   width: 200px;
   height: 200px;
   background-color: black;
