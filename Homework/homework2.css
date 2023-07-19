@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+  padding: 0 0;
+  margin: 0;
+}
+header {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100vw;
+  height: 60px;
+}
+.navbar {
+  width: 450px;
+  margin: 0 200px;
+  display: flex;
+  justify-content: space-between;
+}
+header a {
+  text-decoration: none;
+  color: White;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  opacity: 0.8;
+}
+.mainbody {
+  background-image: url(https://cdn.wallpapersafari.com/92/64/jVIhC3.jpg);
+  width: 100vw;
+  height: 100vh;
+}
+.bodycontent {
+  height: 100vh;
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  flex-direction: column;
+  justify-content: center;
+  color: wheat;
+  margin: 0 200px;
+}
+.bodycontent a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  text-decoration: none;
+  color: White;
+  font-weight: bold;
+  font-size: 20px;
+  width: 150px;
+  height: 50px;
+  background-color: #2087df;
+  border-radius: 25px;
+}
+.bodycontent h1 {
+  font-size: 50px;
+  font-weight: 700;
+  letter-spacing: 5px;
+}
+.bodycontent h2 {
+  font-size: 50px;
+  font-weight: 300;
+  letter-spacing: 5px;
+}
+.bodycontent p {
+  margin-top: 20px;
+  font-size: 20px;
+  line-height: 30px;
+}
